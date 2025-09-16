@@ -1,4 +1,3 @@
 flask==3.0.2
 flask-cors==4.0.0
-pywin32==310
-# locale is part of Python's standard library (no installation required)
+pywin32==310; sys_platform == "win32"
